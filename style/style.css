@@ -33,10 +33,19 @@
 .btn-outline:hover {
   box-shadow: 0 0 12px rgba(27, 239, 119, 0.918);
 }
+.center {
+  text-align: center;
+}
+.white {
+  color: #ffffff;
+}
+.green {
+  color: #30b868;
+}
+
 .section-heading {
   font-size: 48px;
   font-weight: bold;
-  /* text-align: center; */
   margin: 16px 0;
 }
 .section-text {
@@ -47,9 +56,6 @@
 
 /* main style starts */
 nav {
-  width: 85%;
-  max-width: 1360px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,11 +83,11 @@ nav .menu a {
   margin: 0 auto;
   padding: 155px 0 180px 0;
 }
-.early-access-btn {
+.early-open-btn {
   text-align: center;
   margin-bottom: 16px;
 }
-.early-access-btn button {
+.early-open-btn button {
   padding: 8px 16px;
   color: #30b868;
   border-radius: 1000px;
@@ -94,6 +100,7 @@ nav .menu a {
   line-height: 84px;
   letter-spacing: 0%;
   text-align: center;
+
   text-transform: capitalize;
   margin: 0 auto;
 }
@@ -101,7 +108,9 @@ nav .menu a {
 .banner-content p {
   margin: 32px auto;
   text-align: center;
-  width: 46%;
+
+  color: #ffffff;
+  line-height: 24px;
 }
 .banner-content .banner-button {
   width: 465px;
@@ -112,7 +121,6 @@ nav .menu a {
   padding: 12px 16px;
   border-radius: 5px;
   font-size: 16px;
-
   color: white;
   cursor: pointer;
   background: none;
@@ -225,6 +233,5 @@ footer {
   margin-right: 16px;
 }
 .icons a i {
-  /* background-color: #fafafa; */
   color: black;
 }
