@@ -5,19 +5,24 @@
 }
 
 /* shared style starts */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
 .btn {
-  background-color: #30B868;
+  background-color: #30b868;
   border: none;
   padding: 12px 16px;
   border-radius: 5px;
   font-size: 16px;
-  font-weight: 600;
+  /* font-weight: 600; */
   color: white;
   cursor: pointer;
 }
 /* shared style ends */
 
-
+/* main style starts */
 nav {
   width: 85%;
   max-width: 1360px;
@@ -25,8 +30,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 16px 0;
 }
- nav .menu {
+nav .menu {
   display: flex;
   list-style-type: none;
   gap: 32px;
@@ -35,4 +41,57 @@ nav {
 nav .menu a {
   font-size: 16px;
   text-decoration: none;
-} 
+}
+
+#banner {
+  background: url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.banner-content {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 155px 0 180px 0;
+}
+.early-access-btn {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.early-access-btn button {
+  padding: 8px 16px;
+  color: #30b868;
+  border-radius: 1000px;
+}
+.banner-content h1 {
+  width: 770px;
+  font-style: Bold;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+
+.banner-content p {
+  margin: 32px auto;
+  text-align: center;
+  width: 46%;
+}
+.banner-content .banner-button {
+  width: 465px;
+  margin: auto;
+}
+.banner-button .works-btn {
+  margin-left: 16px;
+  padding: 12px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+
+  color: white;
+  cursor: pointer;
+  background: none;
+  border: 1px solid white;
+}
