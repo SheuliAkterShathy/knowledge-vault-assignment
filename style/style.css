@@ -25,6 +25,14 @@
   color: white;
   cursor: pointer;
 }
+.btn:hover {
+  background: #2f6f47;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(63, 143, 91, 0.3);
+}
+.btn-outline:hover {
+  box-shadow: 0 0 12px rgba(27, 239, 119, 0.918);
+}
 .section-heading {
   font-size: 48px;
   font-weight: bold;
@@ -136,7 +144,7 @@ nav .menu a {
 /* second brain section starts */
 .second-brain-container {
   display: flex;
-  margin-top: 120px;
+  margin: 120px auto;
   gap: 60px;
   align-items: center;
 }
@@ -168,6 +176,21 @@ nav .menu a {
 }
 
 /* second brain section ends */
+/* early access section starts */
+.early-access-container {
+  background-color: #f7f6f2;
+  text-align: center;
+  padding: 80px 0;
+}
+.early-access-text {
+  line-height: 24px;
+}
+.early-access-btn {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+/* early access section ends */
 
 footer {
   background-color: #001938;
