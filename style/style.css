@@ -28,7 +28,7 @@
 .section-heading {
   font-size: 48px;
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
   margin: 16px 0;
 }
 .section-text {
@@ -129,4 +129,42 @@ nav .menu a {
   padding: 13px;
   border-radius: 50px;
 }
+.card-title {
+  margin: 16px 0;
+}
 /* Notes section ends */
+/* second brain section starts */
+.second-brain-container {
+  display: flex;
+  margin-top: 120px;
+  gap: 60px;
+  align-items: center;
+}
+.section-heading-top{
+    color: #30b868;
+    font-weight: 500;
+}
+.second-brain-container img {
+  max-width: 600px;
+}
+.second-brain-content {
+  max-width: 700px;
+  text-align: left;
+}
+.second-brain-text {
+  line-height: 20px;
+  font-size: 16px;
+  width: 70%;
+  margin-bottom: 40px;
+}
+.second-brain-content ul {
+  list-style-type: none;
+}
+.second-brain-content ul li {
+  margin-bottom: 16px;
+}
+.second-brain-content ul li img {
+  vertical-align: middle;
+}
+
+/* second brain section ends */
