@@ -9,6 +9,11 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+.container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
 
 .btn {
   background-color: #30b868;
@@ -19,6 +24,16 @@
   /* font-weight: 600; */
   color: white;
   cursor: pointer;
+}
+.section-heading {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 16px 0;
+}
+.section-text {
+  text-align: center;
+  margin-bottom: 44px;
 }
 /* shared style ends */
 
@@ -95,3 +110,23 @@ nav .menu a {
   background: none;
   border: 1px solid white;
 }
+
+/* Notes section starts */
+
+.notes-info {
+  display: flex;
+  gap: 24px;
+}
+.notes-info .notes-card {
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.18);
+  background: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 70px 24px;
+}
+.notes-card img {
+  background-color: #f95555;
+  padding: 13px;
+  border-radius: 50px;
+}
+/* Notes section ends */
